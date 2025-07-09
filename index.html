@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Alexandra Sasu – Portfolio Multipagina</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <nav>
+        <ul>
+          <li><a href="#aboutme">About me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+          <li><a href="#experience">Previous Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <main>
+        <section class="visible">
+          <section id="aboutme">
+            <header>
+              <img
+                src="images/alexandra.jpeg"
+                alt="Alexandra Sasu"
+                class="alexandra-img" />
+              <h1>Alexandra Sasu</h1>
+              <h2>Junior Full-Stack Developer</h2>
+            </header>
+
+            <article>
+              <h2>About Me</h2>
+              <p>
+                I had the pleasure of working for over 5 years as a supervisor
+                in parental education. During this time, I was involved in
+                meaningful and impactful projects, and I like to believe that,
+                together with my team, we made a positive difference on a
+                national level, collaborating with schools and educational
+                institutions all across Romania. Still, I felt I hadn’t quite
+                found my place. After completing an intensive one-year fullstack
+                development course, I decided to transition into a field that
+                felt closer to my heart — partly out of a desire to connect with
+                people who share my mindset and passions.
+              </p>
+              <p>
+                I love painting — it helps me stay grounded and expressive in
+                ways words can't always reach. That’s why I’ve included a small
+                selection of my artwork in this portfolio: it’s a glimpse into
+                the way I see and feel the world. Music is my constant companion
+                — mostly heavy metal (with a funky start to every morning), and
+                visual creativity flows alongside it. I've always been
+                fascinated by 3D modeling, especially character design. Over the
+                past year, I’ve been learning Blender in my spare time, and I’ve
+                added here a few of my early experiments with digital sculpting
+                — raw, but made with joy. I’m the proud owner of a hope: that
+                one day I’ll learn to play the cello beautifully and own a '90
+                Honda Prelude.
+              </p>
+            </article>
+
+            <article>
+              <h2>My Creative Projects</h2>
+              <img
+                src="images/sheldon.jpeg"
+                alt="Sheldon"
+                class="sheldon-img" />
+
+              <div>
+                <button>Show Paintings</button>
+                <button>Show 2D - 3D Models</button>
+              </div>
+
+              <div id="paintings-gallery" hidden>
+                <button class="close-gallery">×</button>
+                <h3>Selected Paintings</h3>
+                <div>
+                  <img src="images/charicatures.jpeg" alt="Charicatures" />
+                  <img src="images/davyjhones.jpeg" alt="Davy Jhones" />
+                  <img src="images/elvis.jpeg" alt="Elvis" />
+                  <img src="images/friend.jpeg" alt="Friend" />
+                  <img
+                    src="images/grandtheftlove.jpeg"
+                    alt="Grand Theft Love" />
+                  <img
+                    src="images/mexicanspaghetti.jpeg"
+                    alt="Mexican Spaghetti" />
+                  <img
+                    src="images/ozzyborisvalejo.jpeg"
+                    alt="Ozzy Boris ValLejo" />
+                  <img src="images/spot.jpeg" alt="Spot" />
+                </div>
+              </div>
+
+              <div id="models-gallery" hidden>
+                <button class="close-gallery">×</button>
+                <h3>3D Character Modeling – Blender</h3>
+                <div>
+                  <img src="images/him1.jpeg" alt="Him" />
+                  <img src="images/him2.jpeg" alt="Him" />
+                  <img src="images/him3.jpeg" alt="Him" />
+                  <img src="images/him4.jpeg" alt="Him" />
+                  <img src="images/she1.jpeg" alt="She" />
+                  <img src="images/she2.jpeg" alt="She" />
+                  <img src="images/spider.jpeg" alt="Spider" />
+                </div>
+              </div>
+            </article>
+
+            <article class="certification-section">
+              <h2>Certification</h2>
+              <p>
+                <strong>FULLSTACK Developer Course – GoIT Global</strong><br />
+                Completed: April 7, 2025<br />
+                Topics covered:
+              </p>
+              <span class="tech-logos">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                  alt="HTML5"
+                  title="HTML5" />
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                  alt="CSS3"
+                  title="CSS3" />
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                  alt="JavaScript"
+                  title="JavaScript" />
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                  alt="React"
+                  title="React" />
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                  alt="Node.js"
+                  title="Node.js" />
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                  alt="Git"
+                  title="Git" />
+              </span>
+            </article>
+          </section>
+
+          <section id="projects">
+            <header>
+              <h1>Projects</h1>
+              <h2>
+                A selection of my work during the GoIT course and personal
+                practice
+              </h2>
+            </header>
+
+            <article>
+              <h3>IceCream</h3>
+              <p>Responsive website using Parcel, SCSS, and JavaScript.</p>
+              <a
+                href="https://github.com/AlexWSN/IceCream"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Ice Cream</a
+              >
+            </article>
+
+            <article>
+              <h3>Scary Forg Graphics</h3>
+              <p>HTML, CSS, JS – Game-style interface with interactive UI.</p>
+              <a
+                href="https://github.com/AlexWSN/webfrog01"
+                target="_blank"
+                rel="noopener noreferrer"
+                >WebFrog – CSS Responsive Layout</a
+              >
+              |
+              <a
+                href="https://alexwsn.github.io/webfrog01/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Live Page</a
+              >
+            </article>
+
+            <article>
+              <h3>More Projects</h3>
+              <ul>
+                <li>
+                  <a
+                    href="https://github.com/AlexWSN/goit-js-hw-07"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >To-do List App</a
+                  >
+                  |
+                  <a
+                    href="https://alexwsn.github.io/goit-js-hw-07/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Live Page</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/AlexWSN/goit-hw-11-js"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >User Manager – JavaScript</a
+                  >
+                  |
+                  <a
+                    href="https://alexwsn.github.io/goit-hw-11-js/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Live Page</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/AlexWSN/goit-js-hw-06"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Form Validation Scripts</a
+                  >
+                  |
+                  <a
+                    href="https://alexwsn.github.io/goit-js-hw-06/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Live Page</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://alexwsn.github.io/goit-hw-10-js/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Country Info Viewer</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://alexwsn.github.io/goit-hw-9-js/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Form & Storage Manager</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://alexwsn.github.io/goit-hw-08-js/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Image Gallery App</a
+                  >
+                </li>
+              </ul>
+            </article>
+          </section>
+
+          <section class="carousel-wrapper">
+            <h3 class="carousel-title">Certificate</h3>
+          
+            <div class="carousel-container" id="carousel">
+              <div class="slide">
+                <img src="certificates/certificate1.png" alt="Certificat 1" />
+              </div>
+              <div class="slide active">
+                <img src="certificates/certificate2.png" alt="Certificat 2" />
+              </div>
+              <div class="slide">
+                <img src="certificates/certificate3.png" alt="Certificat 3" />
+              </div>
+          
+              <div class="nav-button left" aria-label="Previous"></div>
+              <div class="nav-button right" aria-label="Next"></div>
+            </div>
+          </section>
+          
+          <div class="lightbox" id="lightbox-certificates">
+            <button class="close" id="closeLightboxCertificates">×</button>
+            <img src="" alt="Certificat mare" id="lightboxImgCertificates" />
+          </div>
+
+          <section id="experience">
+            <header>
+              <h1>Previous Experience</h1>
+            </header>
+
+            <article>
+              <h2>Professional Background</h2>
+              <p>
+                Hello, my name is Alexandra. Since 2019, I have been working as
+                a supervisor in parental education for the HoltIS Association.
+                All the projects I have been involved in have been carried out
+                in collaboration with UNICEF. Among these, one of the key
+                initiatives I contributed to was the establishment of HoltIS
+                youth clubs in 140 schools nationwide, supporting both middle
+                and high school students.
+              </p>
+              <p>
+                I am passionate about painting, music, technology and always
+                open to new discoveries. I find motivation in challenges that
+                promote continuous learning and personal growth.
+              </p>
+              <p>
+                I strongly value fairplay and believe in both offering and
+                receiving respect. For me, mutual respect, integrity, and
+                collaboration are essential in creating meaningful connections
+                and a positive environment.
+              </p>
+              <p>
+                <a href="certificates/previous-experience.pdf" target="_blank"
+                  >Previous Experience PDF</a
+                >
+              </p>
+            </article>
+          </section>
+
+          <section id="contact">
+            <header>
+              <h1>Contact</h1>
+            </header>
+
+            <article>
+              <p>
+                <strong>Email:</strong>
+                <a href="mailto:sasualexandra97@gmail.com"
+                  >sasualexandra97@gmail.com</a
+                >
+              </p>
+              <p><strong>Phone:</strong> 0763 268 996</p>
+              <p><strong>Location:</strong> Iași, România</p>
+            </article>
+          </section>
+        </section>
+      </main>
+      <div id="lightbox" class="hidden">
+        <button class="close-btn" onclick="closeLightbox()">×</button>
+        <button class="prev" onclick="prevImage()">‹</button>
+        <img id="lightbox-img" src="" alt="Lightbox image" />
+        <button class="next" onclick="nextImage()">›</button>
+      </div>
+
+      <footer>
+        <p>
+          © 2025 Alexandra Sasu |
+          <a href="https://github.com/AlexWSN" target="_blank" rel="noopener"
+            >GitHub</a
+          >
+          |
+          <a
+            href="https://www.linkedin.com/in/alexandra-sasu-821006273/"
+            target="_blank"
+            rel="noopener"
+            >LinkedIn</a
+          >
+        </p>
+      </footer>
+    </div>
+    <script>
+      window.addEventListener("load", () => {
+        const alexandraImg = document.querySelector(".alexandra-img");
+        const sheldonImg = document.querySelector(".sheldon-img");
+
+        if (alexandraImg) {
+          alexandraImg.style.opacity = "1";
+          alexandraImg.style.transform = "scale(1)";
+        }
+        if (sheldonImg) {
+          // Apare după o mică întârziere pentru efect diferențiat
+          setTimeout(() => {
+            sheldonImg.style.opacity = "1";
+            sheldonImg.style.transform = "scale(1)";
+          }, 600);
+        }
+      });
+    </script>
+
+    <script src="js/slider.js"></script>
+  </body>
+</html>
