@@ -144,7 +144,6 @@ main {
   margin: 0 auto;
   padding: 0;
   height: 100vh;
-  overflow-y: scroll;
   scroll-snap-type: y mandatory;
   background: transparent; /* scoate gradientul */
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); /* umbră ușoară */
@@ -153,7 +152,6 @@ main {
 
 section {
   padding: 50px 0;
-  scroll-margin-top: 70px; /* pentru scroll la ancore */
   border-bottom: 1px solid #ddd;
 }
 
@@ -176,7 +174,6 @@ section {
   opacity: 0;
   transform: translateY(40px);
   transition: opacity 0.8s ease, transform 0.8s ease;
-  overflow-y: auto;
   background: transparent; /* elimină gradientul */
   color: #222;
 }
@@ -187,7 +184,6 @@ main {
   margin: 0 auto;
   padding: 0;
   height: 100vh;
-  overflow-y: scroll;
   scroll-snap-type: y mandatory;
 }
 
@@ -202,7 +198,6 @@ section {
   transform: translateY(40px);
   transition: opacity 0.8s ease, transform 0.8s ease;
   overflow-y: auto; /* scroll intern dacă secțiunea are conținut mult */
-  
   color: #222; /* text vizibil */
 }
 
@@ -393,7 +388,6 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(135deg, #40e0d0, #5002f7);
   color: #e0e8ff;
-  overflow-y: scroll;
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE 10+ */
 }
@@ -530,13 +524,15 @@ p {
 
 .nav-button.left {
   left: 0;
-  background: url('data:image/svg+xml;utf8,<svg fill="turquoise" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="15,18 9,12 15,6"/></svg>') no-repeat center center;
+  background: url('data:image/svg+xml;utf8,<svg fill="turquoise" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="15,18 9,12 15,6"/></svg>')
+    no-repeat center center;
   background-size: 40px 40px;
 }
 
 .nav-button.right {
   right: 0;
-  background: url('data:image/svg+xml;utf8,<svg fill="turquoise" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="9,18 15,12 9,6"/></svg>') no-repeat center center;
+  background: url('data:image/svg+xml;utf8,<svg fill="turquoise" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="9,18 15,12 9,6"/></svg>')
+    no-repeat center center;
   background-size: 40px 40px;
 }
 
